@@ -52,7 +52,8 @@
     right: 5vh;
     /* width: 20vh * $ratio_logo_mini; */
     width: 41.21vh;
-    height: 20vh;
+    height: 32vh;
+    /* imagen se adapte heightxwidth*ratio*/
     opacity: 0.2;
     background-image: url('../../../svg/logo.svg');
     background-position: 50% 50%;
