@@ -42,6 +42,20 @@
     font-size: small;
 }
 
+.image-before:texto {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: border-box;
+}
+
 /* Marca de agua */
 
 .agua:before {
@@ -61,6 +75,35 @@
     background-repeat: no-repeat;
 }
 
+.header.portada {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+
+.portada.before {
+    opacity: 1;
+    -webkit-filter: brightness(1) blur(2px) grayscale(0.8);
+    filter: brightness(1) blur(2px) grayscale(0.8);
+}
+
+.portada.textos:before {
+    background-image: url('../../../img/camara.jpg');
+}
+
+.portada.imagenes:before{
+    background-image: url('../../../img/camara.jpg');
+}
+header.portada h2{
+    position: absolute;
+    margin: 0%;
+    padding:  1em;
+    width: 100%;
+    background: rgba(96, 96, 96, 0.5);
+    top: 20%;
+    text-align: center;
+    color: white;
+}
 
 body {
     background-color: var(--bg-body);
