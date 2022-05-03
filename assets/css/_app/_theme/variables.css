@@ -20,7 +20,7 @@
     
     /* ratio del logo 1020/495 */
     /* ancho del logo = --height-header * ratio */
-    --wlogo-header: 5.09rem;
+    --wlogo-header: 5.20rem;
     /* Efecto al hover */
     --logo-filter--hover: hue-rotate(180deg);
     /* Ejemplo de filtro múltiple */
@@ -70,8 +70,7 @@
     --color-label-rwd--hover: #fff9c4;
     /*
 
-        --- @media queries del sitio  ---
-
+          --- @media queries del sitio  ---
     */
     /* Para casos de global width máximo */
     --max-width: 100%;
@@ -86,9 +85,9 @@
     --xxl: 90rem;
     /* 1600px */
     --xxxl: 100rem;
-}
 
- /*
+
+    /*
         --- Imágenes del Sitio ---
     */
 
@@ -97,3 +96,4 @@
 
     --img_cat1_img2: url('../../../img/css_imagenes_1280x847.jpg');
 }
+
