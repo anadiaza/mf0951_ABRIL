@@ -42,7 +42,7 @@
     font-size: small;
 }
 
-.image-before:texto {
+.image-before:before {
     position: absolute;
     content: '';
     top: 0;
